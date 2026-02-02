@@ -1,0 +1,17 @@
+{
+  "name": "betterauth-hono",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy --minify",
+    "cf-typegen": "wrangler types --env-interface CloudflareBindings"
+  },
+  "dependencies": {
+    "@neondatabase/serverless": "^1.0.2",
+    "better-auth": "^1.4.18",
+    "hono": "^4.11.7"
+  },
+  "devDependencies": {
+    "wrangler": "^4.4.0"
+  }
+}
